@@ -8,7 +8,7 @@ terraform {
   
    backend "azurerm" {
     resource_group_name  = "tfstate"
-    storage_account_name = "bambootfstatefilesqa"
+    storage_account_name = "srinidevstorageacct"
     container_name       = "training"
     key                  = "test.tfstate"
   }
