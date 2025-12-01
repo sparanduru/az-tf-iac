@@ -1,5 +1,5 @@
 module "dev_storage" {
-  source                   = "./modules/StorageAccount"
+  source                   = "../modules/StorageAccount"
   resource_group_name      = "devopsTraining"
   location                 = "UK South"
   name                     = "srinidevstorageacctv2"
