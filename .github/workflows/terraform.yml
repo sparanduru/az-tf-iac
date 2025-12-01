@@ -67,8 +67,8 @@ jobs:
       - name: Terraform Apply - Prod
         run: terraform apply -auto-approve -input=false
     
-      - name: Terraform Destroy Plan
-        run: terraform plan -destroy
+        #- name: Terraform Destroy Plan
+        #run: terraform plan -destroy
 
-      - name: Terraform Destroy
-        run: terraform destroy --auto-approve  -input=false
+        #- name: Terraform Destroy
+        # run: terraform destroy --auto-approve  -input=false
