@@ -7,7 +7,7 @@ terraform {
   }
   
    backend "azurerm" {
-    resource_group_name  = "tfstate"
+    resource_group_name  = "devopsTraining"
     storage_account_name = "srinidevstorageacct"
     container_name       = "training"
     key                  = "test.tfstate"
